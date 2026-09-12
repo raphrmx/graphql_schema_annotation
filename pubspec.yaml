@@ -1,0 +1,26 @@
+name: graphql_schema_annotation
+description: >-
+  Annotations read by graphql_schema_generator: GraphQL directives, interfaces
+  and scalars, declared on the plain Dart classes the schema is generated from.
+version: 0.1.0
+homepage: https://www.comapps.be
+repository: https://github.com/raphrmx/graphql_schema_annotation
+issue_tracker: https://github.com/raphrmx/graphql_schema_annotation/issues
+topics:
+  - graphql
+  - annotations
+  - schema
+  - codegen
+
+environment:
+  sdk: ^3.8.0
+
+# `meta` carries `@Target`, which is what makes an annotation of this package
+# refuse to sit where it has no meaning.
+dependencies:
+  meta: ^1.19.0
+
+# Only what it takes to work on this package itself.
+dev_dependencies:
+  lint: ^2.9.0
+  test: ^1.31.0
