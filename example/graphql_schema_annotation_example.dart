@@ -152,8 +152,8 @@ class CompanyDraft {
 
   /// Creates a draft, refusing a VAT number of the wrong length.
   CompanyDraft({required this.vatNo, required this.label})
-    : assert(
-        vatNo.value.length == 12,
-        'A Belgian VAT number holds 12 characters.',
-      );
+      : assert(
+          vatNo.value.length == 12,
+          'A Belgian VAT number holds 12 characters.',
+        );
 }

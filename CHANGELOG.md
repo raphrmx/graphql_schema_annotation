@@ -1,3 +1,11 @@
+## 0.1.1
+
+- Lowers the Dart floor to 3.3, from 3.8, and accepts `meta` from 1.16.0, the
+  last version that carries no Dart floor of its own above 3.0. The annotations
+  use nothing newer than 3.3, and what sets the floor now is the `extension
+  type` in the example rather than a constraint nothing needed.
+- No change to the annotations themselves.
+
 ## 0.1.0
 
 First release.
